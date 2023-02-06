@@ -5,6 +5,7 @@ p {
     margin: auto;
     font-size: 16pt;
     margin-bottom: 2rem;
+    max-width: 90%;
 }
 
 @media  (max-width: 500px) {
