@@ -4,17 +4,17 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <div className="navbar">
-      <ul>
-        <li>
+      <ul id="navbar-ul">
+        <li className="navbar-li">
           <a href={"#home"}>Home</a>
         </li>
-        <li>
+        <li className="navbar-li">
           <a href={"#my-program"}>My Program</a>
         </li>
-        <li>
+        <li className="navbar-li">
           <a href={"#meet-me"}>Meet the Teacher</a>
         </li>
-        <li>
+        <li className="navbar-li">
           <a href={"#contact"}>Contact</a>
         </li>
       </ul>

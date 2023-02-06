@@ -3,4 +3,6 @@ p {
     text-align: center;
     align-items: center;
     margin: auto;
+    font-size: 16pt;
+    margin-bottom: 2rem;
 }

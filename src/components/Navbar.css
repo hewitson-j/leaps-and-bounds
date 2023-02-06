@@ -1,6 +1,7 @@
 .navbar {
     background-color: #3499af;
     overflow: hidden;
+    margin: none;
 }
 
 .navbar a {
@@ -14,7 +15,7 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-ul {
+#navbar-ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -31,7 +32,7 @@ ul {
     transition: 0.4s;
 }
 
-li {
+.navbar-li {
     align-items: center;
     display: inline-block;
 }

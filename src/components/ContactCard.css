@@ -1,0 +1,12 @@
+#contact-card-ul{
+    list-style-type: none;
+    margin: 0;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 0;
+    color: black;
+}
+
+#schedule-appointment {
+    margin: 2rem;
+}
