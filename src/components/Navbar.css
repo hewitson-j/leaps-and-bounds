@@ -20,6 +20,7 @@
     margin: 0;
     padding: 0;
     color: black;
+    margin-left: 1.5rem;
 }
 
 .navbar a.active {
@@ -35,4 +36,11 @@
 .navbar-li {
     align-items: center;
     display: inline-block;
+    
+}
+
+@media screen and (max-width: 500px) {
+    .navbar {
+        display: none;
+    }
 }

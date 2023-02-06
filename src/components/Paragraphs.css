@@ -6,3 +6,9 @@ p {
     font-size: 16pt;
     margin-bottom: 2rem;
 }
+
+@media  (max-width: 500px) {
+    p {
+        max-width: 90%;
+    }
+}

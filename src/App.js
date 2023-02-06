@@ -5,6 +5,7 @@ import ContactInfo from "./components/ContactInfo";
 import Paragraphs from "./components/Paragraphs";
 import Headings from "./components/Headings";
 import ContactCard from "./components/ContactCard";
+import MobileNavbar from "./components/MobileNavbar";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header id="home" />
       <ContactInfo />
       <Navbar />
+      <MobileNavbar />
       <Headings text={"About our Program"} id="my-program" />
       <Paragraphs
         text={
