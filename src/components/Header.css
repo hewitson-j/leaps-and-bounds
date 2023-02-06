@@ -1,0 +1,14 @@
+#tagline {
+    margin-top: none;
+    font-family: comic sans ms;
+}
+
+@media screen and (max-width: 500px) {
+    img {
+        width: 300px;
+    }
+
+    #tagline {
+        font-size: 10pt;
+    }
+}
