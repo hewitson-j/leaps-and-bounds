@@ -6,6 +6,7 @@ import Paragraphs from "./components/Paragraphs";
 import Headings from "./components/Headings";
 import ContactCard from "./components/ContactCard";
 import MobileNavbar from "./components/MobileNavbar";
+import Offerings from "./components/Offerings";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         }
       />
       <Headings text={"What we Offer"} />
+      <Offerings />
       <Headings text={"Meet your Teacher!"} />
       <Paragraphs
         text={

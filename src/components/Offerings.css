@@ -1,0 +1,12 @@
+#offerings-list {
+    list-style-type: none;
+    margin: 2rem;
+}
+
+.item {
+    font-size: 16pt;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}

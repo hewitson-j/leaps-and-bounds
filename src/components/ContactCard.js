@@ -1,5 +1,6 @@
 import React from "react";
 import "./ContactCard.css";
+// import { useEffect } from "react";
 
 function ContactCard() {
   return (
@@ -23,21 +24,22 @@ function ContactCard() {
           </li>
         </div>
       </ul>
-      <input
+      {/* <input
         type={"button"}
-        value="Schedule a Tour"
+        // onClick={"mailto:melonro143@yahoo.com"}
+        className="btn btn-primary"
+        value={"Schedule a Tour!"}
+        id="schedule-appointment"
+        // onClick={(location.href = "mailto:melonro143@yahoo.com")}
+        // href={"mailto:melonro143@yahoo.com"}
+      ></input> */}
+      <a
+        href="mailto:melonro143@yahoo.com?subject=Schedule%20Preschool%20Tour&body=Hi%20Mrs.%20Melanie,%0D%0A%0D%0A"
         className="btn btn-primary"
         id="schedule-appointment"
-      ></input>
-      {/* 
-      <script>
-        const emailButton = document.querySelector("#schedule-appointment");
-        emailButton.addEventListener("click", () => {window.open(
-          "mailto:melonro143@yahoo.com?subject=Schedule%20an%20Appointment"
-        )}
-
-        )
-      </script> */}
+      >
+        Schedule a Tour!
+      </a>
     </>
   );
 }
