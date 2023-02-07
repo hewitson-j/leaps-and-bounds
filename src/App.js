@@ -7,6 +7,12 @@ import Headings from "./components/Headings";
 import ContactCard from "./components/ContactCard";
 import MobileNavbar from "./components/MobileNavbar";
 import Offerings from "./components/Offerings";
+import ImageSlider from "./components/ImageSlider";
+
+const topImages = [
+  "https://media.istockphoto.com/id/1346927889/photo/colorful-garden-of-the-gods.jpg?s=612x612&w=0&k=20&c=v-JlOKOsUf5XRbzBB9uifKfUTDoighTmqKMkpgT7FGY=",
+  "https://media.gettyimages.com/id/162499166/photo/garden-of-the-gods-colorado-springs.jpg?s=612x612&w=gi&k=20&c=ruEWwOANAo0IhYI40iuYZ1EvkFTh4tQ_sjrIvXNUbjc=",
+];
 
 function App() {
   return (
@@ -15,6 +21,9 @@ function App() {
       <ContactInfo />
       <Navbar />
       <MobileNavbar />
+      <div id="top-image-slider">
+        <ImageSlider images={topImages} />
+      </div>
       <Headings text={"About our Program"} id="my-program" />
       <Paragraphs
         text={
@@ -23,6 +32,10 @@ function App() {
       />
       <Headings text={"What we Offer"} />
       <Offerings />
+      <Headings text={"Our Facilities"} />
+      <div id="facilities-image-slider">
+        <ImageSlider images={topImages} />
+      </div>
       <Headings text={"Meet your Teacher!"} />
       <Paragraphs
         text={
