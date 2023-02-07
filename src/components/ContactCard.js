@@ -29,6 +29,15 @@ function ContactCard() {
         className="btn btn-primary"
         id="schedule-appointment"
       ></input>
+      {/* 
+      <script>
+        const emailButton = document.querySelector("#schedule-appointment");
+        emailButton.addEventListener("click", () => {window.open(
+          "mailto:melonro143@yahoo.com?subject=Schedule%20an%20Appointment"
+        )}
+
+        )
+      </script> */}
     </>
   );
 }

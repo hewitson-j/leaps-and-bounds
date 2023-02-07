@@ -22,8 +22,6 @@
     font-size: 25pt;
 }
 
-/* Make it so that --- shows */
-
 @media screen and (max-width:500px) {
     #mobile-contact-info-header {
         /* display: block; */
@@ -38,5 +36,10 @@
 
     #mobile-contact-info-button {
         display: block;
+        color: red;
     }
+
+    /* #mobile-contact-info-button {
+        display: flex;
+    } */
 }
