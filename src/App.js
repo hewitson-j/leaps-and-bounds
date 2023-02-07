@@ -10,7 +10,7 @@ import Offerings from "./components/Offerings";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App animated animatedFadeInUp fadeInUp">
       <Header id="home" />
       <ContactInfo />
       <Navbar />

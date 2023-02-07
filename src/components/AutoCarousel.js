@@ -1,10 +1,6 @@
-import React from "react";
+import React, { createContext, useReducer, useState } from "react";
 import "./AutoCarousel.css";
 
-function AutoCarousel({ imgs = [] }) {
-  return (
-    <>
-      <div>Slideshow :/</div>
-    </>
-  );
-}
+function AutoCarousel() {}
+
+export default AutoCarousel;
