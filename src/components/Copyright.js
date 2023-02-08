@@ -10,6 +10,10 @@ function Copyright() {
         <a id="TaC" href="./TaC.html">
           Terms and Conditions
         </a>{" "}
+        and{" "}
+        <a id="PrivacyPolicy" href="./PrivacyPolicy.html">
+          Privacy Policy
+        </a>{" "}
         - Updated 2/8/2023
       </div>
     </div>
