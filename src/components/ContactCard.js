@@ -7,17 +7,17 @@ function ContactCard() {
     <>
       <ul id="contact-card-ul">
         <div className="row">
-          <li className="col-sm-3">
+          <li className="col-sm-3 contact-li">
             <b>Email</b>
             <br></br>
             melonro143@yahoo.com
           </li>
-          <li className="col-sm">
+          <li className="col-sm contact-li">
             <b>Phone</b>
             <br></br>
-            +1 719-439-0566
+            719-439-0566
           </li>
-          <li className="col-sm-3">
+          <li className="col-sm-3 contact-li">
             <b>Facebook</b>
             <br></br>
             <a href="https://www.facebook.com/MsMelanieTrujillo">Click Here!</a>

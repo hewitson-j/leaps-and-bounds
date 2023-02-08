@@ -52,7 +52,7 @@
 
 #main-body {
   align-items: center;
-  background-image: url("Pattern.jpg");
+  background-image: url("Margin-Pattern.jpg");
 }
 
 #main-content {
@@ -67,5 +67,5 @@
   padding: 1rem;
   border: 2px black solid;
   border-radius: 5px;
-  max-height: 400px;
+  /* max-height: 400px; */
 }

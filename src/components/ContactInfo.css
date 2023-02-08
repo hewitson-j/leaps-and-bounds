@@ -43,3 +43,7 @@
         display: flex;
     } */
 }
+
+.contact-li {
+    overflow-wrap: break-word;
+}
