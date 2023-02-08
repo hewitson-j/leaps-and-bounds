@@ -52,3 +52,16 @@
   margin: auto;
   padding: 1rem;
 }
+
+#mrs-melanie {
+  width: 25%;
+  border: 1px;
+  border-radius: 5px;
+}
+
+
+@media screen and (max-width: 500px) {
+  #mrs-melanie {
+    width: 50%;
+  }
+}

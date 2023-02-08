@@ -11,8 +11,21 @@ import ImageSlider from "./components/ImageSlider";
 import Copyright from "./components/Copyright";
 
 const topImages = [
-  "https://media.istockphoto.com/id/1346927889/photo/colorful-garden-of-the-gods.jpg?s=612x612&w=0&k=20&c=v-JlOKOsUf5XRbzBB9uifKfUTDoighTmqKMkpgT7FGY=",
-  "https://media.gettyimages.com/id/162499166/photo/garden-of-the-gods-colorado-springs.jpg?s=612x612&w=gi&k=20&c=ruEWwOANAo0IhYI40iuYZ1EvkFTh4tQ_sjrIvXNUbjc=",
+  "students/teamwork.jpg",
+  "students/bottles.jpg",
+  "students/science.jpg",
+  "students/tray.jpg",
+  "students/fun-together.jpg",
+  "students/building.jpg",
+  "students/cards.jpg",
+  "students/pans.jpg",
+  "students/parachute.jpg",
+  "students/plate.jpg",
+  "students/playhouse.jpg",
+  "students/santa.jpg",
+  "students/tower.jpg",
+  "students/writing.jpg",
+  "students/picnic.jpg",
 ];
 
 const facilitiesImages = [
@@ -55,6 +68,11 @@ function App() {
         <ImageSlider images={facilitiesImages} />
       </div>
       <Headings text={"Meet your Teacher!"} id="section-3" />
+      <img
+        src="mrs-melanie.jpg"
+        id="mrs-melanie"
+        alt="Mrs. Melanie the Teacher"
+      ></img>
       <Paragraphs
         text={
           "I am passionate about teaching preschool! I have been working in the field of early childhood education for almost 20 years beginning in high school. I am a member of NAEYC, CAEYC and am licensed with the state of Colorado. After 10 years of working in the public school system in Nevada I moved to Colorado Springs and began working at a childcare center and did so for over two years. At that time, I decided to open my own preschool classroom. I have been teaching preschool-age students in my home as a licensed family childcare provider for over five years. My husband and I have been married 9 years. We have a beautifully blended family with six children whose ages range from 17- 25. We have one dog named Rosie and a cat named Ophelia. I enjoy being able to teach children from my home. I love working with them and seeing their faces light up when they learn something new! I’m excited to have your child join our class and look forward to teaching, as well as learning from them. I truly believe each child has amazing potential and gifts already inside of them. Thank you for considering becoming a part of the Leaps & Bounds Preschool family!"
