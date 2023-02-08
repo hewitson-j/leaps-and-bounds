@@ -22,4 +22,6 @@ function ImageSlider({ images = [] }) {
   );
 }
 
+// 
+
 export default ImageSlider;

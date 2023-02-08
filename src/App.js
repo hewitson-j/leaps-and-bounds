@@ -54,6 +54,7 @@ function App() {
       <MobileNavbar />
       <div id="main-body">
         <div id="main-content">
+          <Headings text="Welcome to School!" />
           <div id="top-image-slider">
             <ImageSlider images={topImages} />
           </div>
