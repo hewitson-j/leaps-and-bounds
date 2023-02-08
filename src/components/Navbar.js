@@ -6,16 +6,16 @@ function Navbar() {
     <div className="navbar">
       <ul id="navbar-ul">
         <li className="navbar-li">
-          <a href={"#home"}>Home</a>
+          <a href="#section-1">Home</a>
         </li>
         <li className="navbar-li">
-          <a href={"#my-program"}>My Program</a>
+          <a href="#section-2">My Program</a>
         </li>
         <li className="navbar-li">
-          <a href={"#meet-me"}>Meet the Teacher</a>
+          <a href="#section-3">Meet the Teacher</a>
         </li>
         <li className="navbar-li">
-          <a href={"#contact"}>Contact</a>
+          <a href="#section-4">Contact</a>
         </li>
       </ul>
     </div>

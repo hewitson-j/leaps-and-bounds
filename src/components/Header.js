@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import Logo from "./images/Logo.jpg";
+import { useEffect } from "react";
 
 function Header() {
   return (
