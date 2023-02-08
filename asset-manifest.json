@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/leaps-and-bounds/static/css/main.608885fe.css",
+    "main.js": "/leaps-and-bounds/static/js/main.f663c836.js",
+    "static/js/787.9d09b962.chunk.js": "/leaps-and-bounds/static/js/787.9d09b962.chunk.js",
+    "static/media/Margin-Pattern.jpg": "/leaps-and-bounds/static/media/Margin-Pattern.b408ff813e0b63b1e656.jpg",
+    "static/media/Logo.jpg": "/leaps-and-bounds/static/media/Logo.b89e334c0227ae7ab45c.jpg",
+    "index.html": "/leaps-and-bounds/index.html",
+    "main.608885fe.css.map": "/leaps-and-bounds/static/css/main.608885fe.css.map",
+    "main.f663c836.js.map": "/leaps-and-bounds/static/js/main.f663c836.js.map",
+    "787.9d09b962.chunk.js.map": "/leaps-and-bounds/static/js/787.9d09b962.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.608885fe.css",
+    "static/js/main.f663c836.js"
+  ]
+}
