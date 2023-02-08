@@ -8,6 +8,7 @@ import ContactCard from "./components/ContactCard";
 import MobileNavbar from "./components/MobileNavbar";
 import Offerings from "./components/Offerings";
 import ImageSlider from "./components/ImageSlider";
+import Copyright from "./components/Copyright";
 
 const topImages = [
   "https://media.istockphoto.com/id/1346927889/photo/colorful-garden-of-the-gods.jpg?s=612x612&w=0&k=20&c=v-JlOKOsUf5XRbzBB9uifKfUTDoighTmqKMkpgT7FGY=",
@@ -61,6 +62,7 @@ function App() {
       />
       <Headings text="Contact" id="section-4" />
       <ContactCard />
+      <Copyright />
     </div>
   );
 }

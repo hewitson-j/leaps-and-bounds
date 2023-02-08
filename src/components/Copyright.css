@@ -1,0 +1,9 @@
+#copyright {
+    display: block;
+    margin: 1rem;
+}
+
+#copyright hr {
+    margin-left: 25%;
+    margin-right: 25%;
+}
