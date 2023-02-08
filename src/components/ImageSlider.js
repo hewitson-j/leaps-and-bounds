@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "./ImageSlider.css";
 
 function ImageSlider({ images = [] }) {
   // Create state variables for the index and image array
@@ -14,7 +15,11 @@ function ImageSlider({ images = [] }) {
   }, []);
 
   // Render the current image
-  return <img src={images[index]} alt="Slider" />;
+  return (
+    <div id="image-slider">
+      <img src={images[index]} alt="Slider" id="slider-image" />
+    </div>
+  );
 }
 
 export default ImageSlider;

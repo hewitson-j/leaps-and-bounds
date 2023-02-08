@@ -1,1 +1,10 @@
-/*  */
+#image-slider {
+    /* border: 1px black solid;
+    border-radius: 5px; */
+    /* width: 800px;
+    height: 500px; */
+}
+
+#slider-image {
+    border-radius: 10px;
+}
