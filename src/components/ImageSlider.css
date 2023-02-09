@@ -11,3 +11,16 @@
     align-content: center;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 500px) {
+    #slider-image {
+        max-width: 200px;
+    }
+
+    #image-slider {
+        margin: 0;
+        width: 0;
+        margin-left: 25%;
+        /* margin-right: 30%; */
+    }
+}

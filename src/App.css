@@ -69,3 +69,10 @@
   border-radius: 5px;
   /* max-height: 400px; */
 }
+
+@media screen and (max-width: 500px) {
+  #main-content {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
