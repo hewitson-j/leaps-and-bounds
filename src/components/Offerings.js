@@ -5,9 +5,8 @@ function Offerings() {
   return (
     <>
       <p>
-        I want to provide your child with the best Preschool experience
-        possible. Because of this, I have certifications and activities not
-        offered by other preschool programs. This includes:
+        I want to provide your child with an exceptional Preschool experience.
+        Leaps & Bounds Preschool highlights include:
       </p>
 
       {/* • */}
@@ -26,7 +25,8 @@ function Offerings() {
         </div>
         <div className="row">
           <li className="col item">
-            • Nutritious snack for my morning class provided by my program
+            • Nutritious morning snack consisiting of fruits, vegetables, whole
+            grains and/or lean proteins.
           </li>
           <li className="col item">
             • Community involvement through special guest presenters.
@@ -34,7 +34,7 @@ function Offerings() {
         </div>
         <div className="row">
           <li className="col item">
-            • Fun and inviting learning space in my home basement
+            • Fun and inviting indoor and outdoor learning spaces.
           </li>
           <li className="col item">
             • Small class size with a ratio of six students to one teacher.
@@ -43,9 +43,9 @@ function Offerings() {
       </ul>
 
       <p>
-        With all this, I am licensed with the State of Colorado for Permanent
-        Child Care Provider. My license number is #1711173 which can be
-        confirmed with the State.
+        I am a licensed family childcare provider with the State of Colorado
+        (license #1711173) providing care and education exclusively to
+        preschool-age children.
       </p>
 
       {/* *Play based curriculum that meets Colorado state standards. *Daily short bible devotional. *Family involvement activities several times per year. *Cooking and science exploration. *Nutritious morning snack provided by my program. PLEASE HAVE YOUR CHILD BRING A COLD OR MICROWAVABLE LUNCH. *Community involvement through special guest presenters. *Fun and inviting learning space in my home basement. Students will need to navigate stairs independently. *Small class size. Ratio six students to one teacher.

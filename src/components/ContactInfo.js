@@ -15,6 +15,9 @@ function ContactInfo() {
       <div className="contact-info-header">
         <h4>melonro143@yahoo.com</h4>
         <h4>719-439-0566</h4>
+        <h4>
+          <a href="https://www.facebook.com/MsMelanieTrujillo">Facebook</a>
+        </h4>
       </div>
     </>
   );
