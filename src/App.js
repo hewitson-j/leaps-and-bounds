@@ -55,8 +55,10 @@ function App() {
       <div id="main-body">
         <div id="main-content">
           <Headings text="Welcome to School!" />
-          <div id="top-image-slider">
-            <ImageSlider images={topImages} />
+          <div className="paper-background">
+            <div id="top-image-slider">
+              <ImageSlider images={topImages} />
+            </div>
           </div>
           <Headings text={"About our Program"} id="section-2" />
           <Paragraphs
@@ -67,8 +69,10 @@ function App() {
           <Headings text={"What we Offer"} />
           <Offerings />
           <Headings text={"Our Facilities"} />
-          <div id="facilities-image-slider">
-            <ImageSlider images={facilitiesImages} />
+          <div className="paper-background">
+            <div id="facilities-image-slider">
+              <ImageSlider images={facilitiesImages} />
+            </div>
           </div>
           <Headings text={"Meet your Teacher!"} id="section-3" />
           <img

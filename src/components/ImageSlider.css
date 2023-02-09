@@ -18,9 +18,13 @@
     }
 
     #image-slider {
+        position: relative;
         margin: 0;
         width: 0;
+        /* right: 100; */
         margin-left: 25%;
+        top: 75px;
+        /* margin-top: 15%; */
         /* margin-right: 30%; */
     }
 }
