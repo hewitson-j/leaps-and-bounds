@@ -7,6 +7,16 @@
     padding-left: 1.5rem;
 }
 
+#hidden-mobile-menu a {
+    color: black;
+    list-style-type: none;
+    padding: .5rem;
+}
+
+#hidden-mobile-menu {
+    border: 1px solid black;
+}
+
 #mobile-navbar:hover {
     background-color: #1e6372;
     transition: 0.4s;
@@ -14,11 +24,13 @@
 
 #mobile-menu {
     display: none;
+    align-items: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
     color: black;
     margin-left: 1.5rem;
+    /* background-color: #3499af; */
 }
 
 .navbar-li-mobile {
